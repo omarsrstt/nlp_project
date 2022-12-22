@@ -1,0 +1,8 @@
+# Ignore the data paths
+data/
+
+# Ignore vscode files
+.vscode/
+
+# Ignore pycharm files
+.idea/

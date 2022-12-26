@@ -8,4 +8,4 @@ data/
 .idea/
 
 # Ignore twitter authorization file
-.OAuth.txt
+OAuth.txt

@@ -9,3 +9,4 @@
 
 # Ignore twitter authorization file
 OAuth.txt
+src/test.ipynb

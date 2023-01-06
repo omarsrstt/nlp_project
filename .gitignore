@@ -1,6 +1,6 @@
 # Ignore the data paths
 # data/
-
+data/Reddit
 # Ignore vscode files
 .vscode/
 

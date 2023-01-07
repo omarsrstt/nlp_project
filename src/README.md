@@ -1,0 +1,3 @@
+# Files
+* config.py contains configuration parameters to be used during execution. This contains: file name, columns that are needed, etc. More parameters to be added.
+* preprocessing.ipnb: jupyter notebook that has some initial data visualisations and preprocesses the files: lemmatization and stop word removal. The last cell of the notebook saves the preprocessed data to a .csv file in the respective dataset folder (data). Columns are related to comments, labels, lemmatized comment, words after stop word removal.

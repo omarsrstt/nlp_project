@@ -17,10 +17,10 @@ class Config:
             assert "Invalid dataset selected, Valid = [Reddit, iSarcasm]"
         
         # Path to datasets
-        file_dir = os.path.join("..", "data", dataset)
+        file_dir = os.path.join("..", "data", self.dataset)
 
         # Store dataset specific attributes
-        if dataset == "Reddit":
+        if self.dataset == "Reddit":
             self.input_file_path = os.path.join(file_dir, "train-balanced-sarcasm.csv")
             self.test_file_path = os.path.join(file_dir, "test-balanced.csv")
             self.comment_col_name = "comment"

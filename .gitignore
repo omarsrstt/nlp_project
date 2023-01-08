@@ -7,6 +7,9 @@ data/Reddit
 # Ignore pycharm files
 .idea/
 
+# Ignore models
+models/
+
 # Ignore twitter authorization file
 OAuth.txt
 src/test.ipynb

@@ -4,7 +4,12 @@
 ```
 .
 ├───data
-│   └───iSarcasm
+│   ├───iSarcasm
+│   ├───iSarcasmEval
+│   │   ├───test
+│   │   ├───third-party annotations
+│   │   └───train
+│   └───Reddit
 └───src
 ```
 ---

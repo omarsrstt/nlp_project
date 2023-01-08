@@ -32,3 +32,4 @@ class Config:
             self.label_col_name = "sarcastic"
 
         self.preprocessed_file_path = os.path.join(file_dir, "preprocessed.csv")
+        self.preprocessed_file_path_all_cols = os.path.join(file_dir, "preprocessed-with-all_columns.csv")

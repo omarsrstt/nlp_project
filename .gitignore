@@ -13,3 +13,6 @@ models/
 # Ignore twitter authorization file
 OAuth.txt
 src/test.ipynb
+
+# Ignore outputs folder
+outputs/

@@ -3,14 +3,23 @@
 ### Folder Structure
 ```
 .
-├───data
+S:.
+├───data        # Stores datasets
 │   ├───iSarcasm
 │   ├───iSarcasmEval
 │   │   ├───test
 │   │   ├───third-party annotations
 │   │   └───train
 │   └───Reddit
+├───models      # Models such as spacy en_core
+├───outputs     # Store output files and plots
 └───src
+    ├───README.md
+    ├───config.py
+    ├───keyword_classifier.ipynb
+    ├───preprocessing.ipynb
+    ├───sarcasm_baseline.ipynb 
+    └───test.ipynb 
 ```
 ---
 ### Dataset

@@ -1,3 +1,5 @@
 # Files
-* config.py contains configuration parameters to be used during execution. This contains: file name, columns that are needed, etc. More parameters to be added.
-* preprocessing.ipnb: jupyter notebook that has some initial data visualisations and preprocesses the files: lemmatization and stop word removal. The last cell of the notebook saves the preprocessed data to a .csv file in the respective dataset folder (data). Columns are related to comments, labels, lemmatized comment, words after stop word removal.
+* config.py contains configuration parameters to be used during execution. This contains dataset related config parameters such as: file name, columns that are needed, etc. More parameters to be added.
+* preprocessing.ipnb: jupyter notebook that has some initial data visualisations and preprocesses the files: lemmatization and stop word removal. It also contains visualizations of different attributes of the datasets. The last cell of the notebook saves the preprocessed data to a .csv file in the respective dataset folder (data). Columns are related to comments, labels, lemmatized comment, words after stop word removal.
+* keyword_classifier.ipynb: File used for generating sarcasm related keywords from the base data. The output json files from this are used to implement semantic word classification baseline methods
+* sarcasm_baseline.ipynb: This file contains the implementations of two baseline methods, semantic axis and sentiment propagation, along with visualization of the results 

@@ -25,11 +25,13 @@ class Config:
             self.test_file_path = os.path.join(file_dir, "test-balanced.csv")
             self.comment_col_name = "comment"
             self.label_col_name = "label"
+            self.MAX_SEQ_LEN = 25
         else:
             self.input_file_path = os.path.join(file_dir, "train.csv")
             self.test_file_path = os.path.join(file_dir, "test.csv")
             self.comment_col_name = "tweet"
             self.label_col_name = "sarcastic"
+            self.MAX_SEQ_LEN = 36
 
         self.preprocessed_file_path = os.path.join(file_dir, "preprocessed.csv")
         self.preprocessed_file_path_all_cols = os.path.join(file_dir, "preprocessed-with-all_columns.csv")
